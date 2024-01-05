@@ -1,45 +1,77 @@
 <!DOCTYPE html>
-<html  lang="pt-br">
-    <head>
-        <meta charset="UTF -8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Bickcraft - Bicletas Elétricas</title>
-        <meta name="description" content="Bicletas elétricas de alta precisão e qualidade,
-        feitas sob medida para o cliente. Explore o mundo na velocidade com Bickcraft">
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-       <header class="header-bg">
-        <div class="header">
-        <a href="./">
-        <img src="./img/bikcraft.svg" alt="Bikcraft">
-        </a>
-        
-        <nav aria-label="primaria">
-            <ul class="header-menu">
-                <li><a href="./Bicicletas.html">Bicicletas</a>
-                <li><a href="./Seguros.html">Seguros</a>
-                <li><a href="./Contato.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-       </header> 
+<!DOCTYPE html>
+<html lang="pt-br">
 
-       <main class="introducao-bg">
-        <div class="introducao">
-            <div class="introducao-conteudo">
-            <h1>Bicicletas feitas sobre medida</h1>
-            <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
-                Explore o mundo na sua velocidade com a Bikcraft</p>
-                <a href="./img/bicicletas.html">Escolha a sua</a>
-            </div>
-                <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta.">
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikcraft - Bicicletas Elétricas</title>
+    <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na velocidade com a Bikcraft">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 
+<body>
+    <header class="header-bg">
+        <div class="header container">
+            <a href="./">
+                <img src="./img/bikcraft.svg" alt="Bikcraft">
+            </a>
+
+            <nav aria-label="primaria">
+                <ul class="header-menu font-1-m cor-0">
+                    <li><a href="./Bicicletas.html">Bicicletas</a></li>
+                    <li><a href="./Seguros.html">Seguros</a></li>
+                    <li><a href="./Contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-       </main>
-    </body>
+    <main class="introducao-bg">
+        <div class="introducao container">
+            <div class="introducao-conteudo">
+                <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="font-2-1 cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
+                    Explore o mundo na sua velocidade com a Bikcraft</p>
+                <a class="botao" href="./Bicicletas.html">Escolha a sua</a>
+            </div>
+
+            <div>
+                <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta.">
+            </div>
+        </div>
+    </main>
+
+    <article class="bicicletas-lista">
+        <h2 class="container font-1-xxl">Escolha a sua<span class="cor-p1">.</span></h2>
+    
+        <ul>
+            <li>
+                <a href="./bicicletas/magic.html">
+                    <img src="./img/bicicletas/magic-home.jpg" alt="Bicicletas-preta">
+                    <h3 class="font-1-xl">Magic-home</h3>
+                    <span class="font-2-m cor-8">$2499</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="./bicicletas/Nimbus.html">
+                    <img src="./img/bicicletas/magic-home.jpg" alt="Bicicletas-preta">
+                    <h3 class="font-1-xl">Nimbus Stark</h3>
+                    <span class="font-2-m cor-8">$4999</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="./bicicletas/Nebula.html">
+                    <img src="./img/bicicletas/magic-home.jpg" alt="Bicicletas-preta">
+                    <h3 class="font-1-xl">Nebula Cosmic</h3>
+                    <span class="font-2-m cor-8">$3000</span>
+                </a>
+            </li>
+        </ul>
+    </article>
+    
+</body>
 
 </html>
