@@ -12,6 +12,9 @@
 
 /* HOME*/
 @import './home/introduaçao.css';
+@import './home/tecnologia.css';
+@import './home/parceiros.css';
+@import './home/depoimentos.css';
 
 /* Bicicletas */
 @import './bicletas/bicicletas-lista.css';
