@@ -11,7 +11,8 @@ body {
   h4,
   ul,
   p,
-  blockquote{
+  blockquote,
+  dd{
     margin: 0px;
   }
   
