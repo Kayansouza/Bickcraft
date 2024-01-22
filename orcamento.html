@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento | Bikcraft</title>
+    <meta name="description" content="Contatos">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="orcamento">
+    <header class="header-bg">
+        <div class="header container">
+            <a href="./">
+                <img src="./img/bikcraft.svg" alt="Bikcraft">
+            </a>
+
+            <nav aria-label="primaria">
+                <ul class="header-menu font-1-m cor-0">
+                    <li><a href="./Bicicletas.html">Bicicletas</a></li>
+                    <li><a href="./Seguros.html">Seguros</a></li>
+                    <li><a href="./Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="titulo-bg">
+            <div class="titulo container">
+                <p class="font-2-l-b cor-5">Cotações para o seu email</p>
+                <h1 class="font-1-xxl cor-0">Solicite um Orçamento<span class="cor-p1">.</span></h1>
+            </div>
+        </div>
+
+        <form class="orcamento container" action="./">
+            <div class="orcamento-produto">
+                <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
+
+                <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+                <label for="bikcraft">Bikcraft</label>
+
+                <input type="radio" name="tipo" value="seguro" id="seguro">
+                <label for="seguro">Seguro</label>
+
+                <div class="orcamento-conteudo" id="orcamento-bikcraft">
+                    <h2 class="font-1-xs cor-5">Escolha a sua</h2>
+
+                    <input type="radio" name="produto" value="nimbus" id="nimbus">
+                <label for="nimbus">Nimbus<span>4999</span></label>
+
+                <div class="orcamento-detalhes">
+                    <ul class="font-1-xs">
+                        <li><img src="./img/icones/eletrica.svg" alt="">Mortor elétrico</li>
+                        <li><img src="./img/icones/carbono.svg" alt="">Fibra de carbono</li>
+                        <li><img src="./img/icones/velocidade.svg" alt="">50Km</li>
+                        <li><img src="./img/icones/ratreador.svg" alt="">Rastreador</li>
+                    </ul>
+                    <img src="./img/bicicletas/nimbus.jpg" alt="Nimbus">
+                </div>
+
+                <input type="radio" name="produto" value="magic" id="magic">
+                <label for="magic">Magic <span>3999</span></label></label>
+                <div class="orcamento-detalhes">
+                    <ul class="font-1-xs">
+                        <li><img src="./img/icones/eletrica.svg" alt="">Mortor elétrico</li>
+                        <li><img src="./img/icones/carbono.svg" alt="">Fibra de carbono</li>
+                        <li><img src="./img/icones/velocidade.svg" alt="">45Km</li>
+                        <li><img src="./img/icones/ratreador.svg" alt="">Rastreador</li>
+                    </ul>
+                    <img src="./img/bicicletas/magic.jpg" alt="Magic">
+                </div>
+
+                <input type="radio" name="produto" value="nebula" id="nebula">
+                <label for="nebula">Nebula<span>2999</span></label></label>
+                <div class="orcamento-detalhes">
+                    <ul class="font-1-xs">
+                        <li><img src="./img/icones/eletrica.svg" alt="">Mortor elétrico</li>
+                        <li><img src="./img/icones/carbono.svg" alt="">Fibra de carbono</li>
+                        <li><img src="./img/icones/velocidade.svg" alt="">50Km</li>
+                        <li><img src="./img/icones/ratreador.svg" alt="">Rastreador</li>
+                    </ul>
+                    <img src="./img/bicicletas/nebula.jpg" alt="Nebula">
+                </div>
+                </div>
+
+                <div class="orcamento-conteudo" id="orcamento-seguro">
+                    <h2 class="font-1-xs cor-0">Escolha o plano</h2>
+
+                    <input type="radio" name="produto" value="prata" id="prata">
+                    <label for="prata">Prata<span>199</span></label>
+
+                    <input type="radio" name="produto" value="ouro" id="ouro">
+                    <label for="ouro">Ouro<span>299</span></label>
+    
+                </div>
+            </div>
+
+            <div class="orcamento-dados form">
+                <h2 class="font-1-xs cor-9 col-2">Dados pessoais</h2>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                </div>
+
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+
+                <div class="col-2">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+                </div>
+
+                <div class="col-2">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Seu email">
+                </div>
+
+                <h2 class="font-1-xs cor-9 col-2">Entrega</h2>
+                <div>
+                    <label for="cep">CEP</label>
+                    <input type="text" name="cep" id="cep" placeholder="Seu cep">
+                </div>
+
+                <div>
+                    <label for="numero">Número</label>
+                    <input type="text" name="numero" id="numero" placeholder="Seu número">
+                </div>
+
+                <div>
+                    <label for="logradouro">Logradouro</label>
+                    <input type="text" name="logradouro" id="logradouro" placeholder="Seu logradouro">
+                </div>
+
+                <div>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" id="bairro" placeholder="Seu bairro">
+                </div>
+
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Sua cidade">
+                </div>
+
+                <div>
+                    <label for="estado">Estado</label>
+                    <input type="text" name="estado" id="estado" placeholder="Seu estado">
+                </div>
+                <button class="botao col-2">Solicitar orçamento</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer-bg">
+        <div class="footer container">
+            <img src="./img/bikcraft.svg" alt="bikcraft">
+            <div class="footer-contato">
+                <h3 class="font-2-2-l-b cor-0">Contato</h3>
+                <ul class="font-2-m cor-5">
+                    <li><a href="tel:+551199999999">+55 11 9999-9999</a></li>
+                    <li><a href="mailto:contato@bikcraft.com">contato@Bikcraft.com</a></li>
+                    <li>Rua Henrique Sam Midlim</li>
+                    <li>São Paulo - SP</li>
+                </ul>
+
+                <div class="footer-redes">
+                    <a href="https://www.instagram.com/"><img src="./img/redes/instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/"><img src="./img/redes/facebook.svg" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/"><img src="./img/redes/youtube.svg" alt="Youtube"></a>
+                </div>
+            </div>
+            <div class="footer-informacoes">
+                <h3 class="font-1-b cor-0">Informações</h3>
+                <nav>
+                    <ul class="font-1-m cor-5">
+                        <li><a href="./Bicicletas.html">Bicicletas</a></li>
+                        <li><a href="./Seguros.html">Seguros</a></li>
+                        <li><a href="./Contato.html">Contato</a></li>
+                        <li><a href="./termos.html">Termos e condições</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="footer-copy font-2-m cor-0">Bikcraft © Alguns direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
